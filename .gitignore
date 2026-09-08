@@ -1,0 +1,17 @@
+# Binaries
+kvkv
+kv-client
+kv-multiclient
+bench/benchmark_runner
+bench/test_correctness
+bench/userspace_server
+bench/userspace_optimized_server
+bench/userspace_async_epoll_server
+
+# Objects
+*.o
+src/*.o
+bench/*.o
+
+# Benchmarks output
+benchmark_results.csv
